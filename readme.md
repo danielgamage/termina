@@ -1,5 +1,7 @@
 ## termina
 
+![termina screenshot](http://i.imgur.com/GMcRHAb.png)
+
 The configuration i've found useful for my style of development.
 
 #### Setup
