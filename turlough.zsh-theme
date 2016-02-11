@@ -21,8 +21,8 @@ function my_git_prompt_info() {
 function prompt_char {
   if [ $UID -eq 0 ]; then
     echo "%{$fg[yellow]%}#%{$reset_color%}";
-  else 
-    echo "%{$fg[yellow]%}→%{$reset_color%}"; 
+  else
+    echo "%{$fg[yellow]%}→%{$reset_color%}";
   fi
 }
 
