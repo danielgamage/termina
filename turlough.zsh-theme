@@ -32,4 +32,4 @@ PROMPT='%(?, ,%{$fg[red]%}FAIL%{$reset_color%}
 %{$fg[cyan]%}%n%{$reset_color%} %{$fg_bold[green]%}%~%{$reset_color%}$(my_git_prompt_info)
 %_ $(prompt_char) '
 
-RPROMPT='%{$fg_bold[green]%}$(rvm_prompt_info)%{$reset_color%}'
+RPROMPT='%{$fg_bold[green]%} (%*) %{$reset_color%}'
